@@ -27,7 +27,7 @@ cd backend && npm install
 
 # Install Frontend Dependencies
 cd ../frontend && npm install
-
+```
 
 
 ### 2. Configure Environment Variables
@@ -37,7 +37,7 @@ PORT=5000
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret_key
 GROQ_API_KEY=your_groq_key
-
+```
 
 
 ### 3. Run the App
@@ -45,12 +45,12 @@ Terminal 1 (Backend):
 ```bash
 cd backend
 node server.js
-
+```
 Terminal 2 (Frontend):
 ```bash
 cd frontend
 npm run dev
-
+```
 
 ## Engineering Highlights
 Migration Logic: Implemented a backend migration script to seamlessly upgrade legacy note data formats.
