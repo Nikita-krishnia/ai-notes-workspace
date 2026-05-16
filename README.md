@@ -53,6 +53,6 @@ npm run dev
 ```
 
 ## Engineering Highlights
-Migration Logic: Implemented a backend migration script to seamlessly upgrade legacy note data formats.
-Resilient AI: Built a "Hybrid" AI service that prioritizes live Groq inference with an automated mock fallback system.
-Performance: Optimized for sub-second AI responses using Groq’s LPU architecture.
+* **Migration Logic:** Implemented a backend migration script to seamlessly upgrade legacy note data formats.
+* **Resilient AI:** Built a "Hybrid" AI service that prioritizes live Groq inference with an automated mock fallback system.
+* **Performance:** Optimized for sub-second AI responses using Groq’s LPU architecture.
